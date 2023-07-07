@@ -1,13 +1,3 @@
-}
-
-class _HomeState extends State<Home> {
-  bool isWorking = false;
-  String result = "";
-  late CameraController cameraController;
-  late CameraImage imgCamera;
-  initCamera() {
-    cameraController = CameraController(cameras[0], ResolutionPreset.medium);
-    cameraController.initialize().then((value) {
       if (!mounted) {
         return;
       }
