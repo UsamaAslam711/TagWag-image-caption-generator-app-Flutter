@@ -1,17 +1,3 @@
-      if (!mounted) {
-        return;
-      }
-      setState(() {
-        cameraController.startImageStream((imageFromScreen) => {
-              if (!isWorking)
-                {
-                  isWorking = true,
-                  imgCamera = imageFromScreen,
-                }
-            });
-      });
-    });
-    {}
   }
 
   int index = 0;
