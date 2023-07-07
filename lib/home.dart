@@ -1,15 +1,3 @@
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                        SizedBox(height: 90),
-                        Container(
-                          width: MediaQuery.of(context).size.width,
-                          child: Column(
-                            children: <Widget>[
-                              GestureDetector(
-                                onTap: () {},
-                                child: Container(
-                                  width:
                                       MediaQuery.of(context).size.width - 180,
                                   alignment: Alignment.center,
                                   padding: EdgeInsets.symmetric(
