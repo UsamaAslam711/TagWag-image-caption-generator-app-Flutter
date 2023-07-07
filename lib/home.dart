@@ -1,15 +1,3 @@
-                Center(
-                  child: Container(
-                    width: 500,
-                    child: Column(
-                      children: <Widget>[
-                        SizedBox(
-                          height: 30,
-                        ),
-                        Text(
-                          'T a g W a g',
-                          style: TextStyle(
-                            color: Colors.black,
                             fontFamily: 'BerkshireSwash-Regular',
                             fontWeight: FontWeight.bold,
                             fontSize: 45,
