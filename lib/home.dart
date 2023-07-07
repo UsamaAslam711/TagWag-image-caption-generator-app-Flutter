@@ -1,32 +1,3 @@
-                                      begin: Alignment.topLeft,
-                                      end: Alignment.bottomRight,
-                                    ),
-                                  ),
-                                  child: Text(
-                                    'Camera Roll',
-                                    style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
-                                ),
-                              )
-                            ],
-                          ),
-                        ),
-                        SizedBox(height: 30),
-                        Container(
-                          width: MediaQuery.of(context).size.width,
-                          child: Column(
-                            children: <Widget>[
-                              GestureDetector(
-                                onTap: () {},
-                                child: Container(
-                                  width:
-                                      MediaQuery.of(context).size.width - 180,
-                                  alignment: Alignment.center,
-                                  padding: EdgeInsets.symmetric(
                                       horizontal: 34, vertical: 17),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(100),
