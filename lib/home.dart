@@ -1,19 +1,3 @@
-                                      colors: [
-                                        Color.fromARGB(255, 70, 252, 243),
-                                        Color.fromARGB(255, 121, 73, 255),
-                                        Color.fromARGB(255, 255, 155, 73)
-                                      ],
-                                      begin: Alignment.topLeft,
-                                      end: Alignment.bottomRight,
-                                    ),
-                                  ),
-                                  child: Text(
-                                    'Live Camera',
-                                    style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                    ),
                                   ),
                                 ),
                               )
