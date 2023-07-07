@@ -1,19 +1,3 @@
-  }
-
-  int index = 0;
-  final screens = [
-    Home(),
-    HelpScreen(),
-  ];
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        body: Stack(
-      children: [
-        Positioned(
-          width: MediaQuery.of(context).size.width * 1.7,
-          left: 05,
-          bottom: 100,
           child: Image.asset(
             "assets/Backgrounds/Spline.png",
             color:
