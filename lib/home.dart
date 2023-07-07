@@ -1,16 +1,3 @@
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            SizedBox(
-              height: 40,
-            ),
-            Container(
-              width: 200,
-              child: Image.asset(
-                'assets/Star Labs logo.png',
-              ),
-            ),
-            Column(
-              children: <Widget>[
                 Center(
                   child: Container(
                     width: 500,
