@@ -1,14 +1,3 @@
-                            fontFamily: 'BerkshireSwash-Regular',
-                            fontWeight: FontWeight.bold,
-                            fontSize: 45,
-                          ),
-                        ),
-                        Text(
-                          'Let\'s get to know what\'s in front of you!',
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontFamily: 'GreatVibes-Regular',
-                            fontSize: 16,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
