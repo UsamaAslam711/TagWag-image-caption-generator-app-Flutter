@@ -1,7 +1,3 @@
-import 'dart:ui';
-
-import 'package:camera/camera.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tflite/tflite.dart';
