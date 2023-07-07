@@ -1,19 +1,3 @@
-          child: Image.asset(
-            "assets/Backgrounds/Spline.png",
-            color:
-                Color.fromRGBO(255, 255, 255, 0.4), // 0.7 is the opacity value
-            colorBlendMode: BlendMode.modulate,
-          ),
-        ),
-        Positioned.fill(
-          child: BackdropFilter(
-            filter: ImageFilter.blur(
-              sigmaX: 80,
-              sigmaY: 80,
-            ),
-          ),
-        ),
-        Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             SizedBox(
