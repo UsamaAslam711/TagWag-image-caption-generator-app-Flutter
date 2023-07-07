@@ -1,8 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:tflite/tflite.dart';
-import 'HelpScreen.dart';
-import 'main.dart';
 
 class Home extends StatefulWidget {
   Home({super.key});
